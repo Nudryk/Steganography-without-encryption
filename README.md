@@ -22,3 +22,18 @@ You can install the required libraries using:
 
 ```bash
 pip install pillow
+
+## Usage
+Command-line Interface (CLI)
+You can interact with the tool via the command line with the following subcommands:
+
+1. Embed a message in an image
+
+```bash
+python steganography.py embed <image_path> <output_image_path> "<message>"
+
+<image_path>: Path to the input image where the message will be embedded.
+
+<output_image_path>: Path where the resulting image with the embedded message will be saved.
+
+<message>: The message you want to hide in the image.
