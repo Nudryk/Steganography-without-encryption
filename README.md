@@ -28,7 +28,7 @@ pip install pillow
 Command-line Interface (CLI)
 You can interact with the tool via the command line with the following subcommands:
 
-1. Embed a message in an image
+**1. Embed a message in an image**
 
 ```bash
 python steganography.py embed <image_path> <output_image_path> "<your_message>"
@@ -41,7 +41,7 @@ python steganography.py embed <image_path> <output_image_path> "<your_message>"
 <your_message>: The message you want to hide in the image.
 
 
-2. Extract a message from an image
+**2. Extract a message from an image**
 
 ```bash
 python steganography.py extract <image_path>
