@@ -31,11 +31,11 @@ You can interact with the tool via the command line with the following subcomman
 1. Embed a message in an image
 
 ```bash
-python steganography.py embed <image_path> <output_image_path> "<message>"
+python steganography.py embed <image_path> <output_image_path> "<your_message>"
 ```
 
 <image_path>: Path to the input image where the message will be embedded.
 
 <output_image_path>: Path where the resulting image with the embedded message will be saved.
 
-<message>: The message you want to hide in the image.
+<your_message>: The message you want to hide in the image.
