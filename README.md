@@ -21,7 +21,7 @@ The messages are hidden by modifying the least significant bits of the RGB value
 You can install the required libraries using:
 
 ```bash
-pip install pillow````
+pip install pillow```
 
 ## Usage
 Command-line Interface (CLI)
