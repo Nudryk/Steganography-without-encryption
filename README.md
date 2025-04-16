@@ -21,7 +21,7 @@ The messages are hidden by modifying the least significant bits of the RGB value
 You can install the required libraries using:
 
 ```bash
-pip install pillow
+pip install pillow````
 
 ## Usage
 Command-line Interface (CLI)
@@ -30,7 +30,7 @@ You can interact with the tool via the command line with the following subcomman
 1. Embed a message in an image
 
 ```bash
-python steganography.py embed <image_path> <output_image_path> "<message>"
+python steganography.py embed <image_path> <output_image_path> "<message>"```
 
 <image_path>: Path to the input image where the message will be embedded.
 
