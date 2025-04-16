@@ -35,7 +35,14 @@ python steganography.py embed <image_path> <output_image_path> "<your_message>"
 ```
 
 <image_path>: Path to the input image where the message will be embedded.
-
 <output_image_path>: Path where the resulting image with the embedded message will be saved.
-
 <your_message>: The message you want to hide in the image.
+
+2. Extract a message from an image
+
+```bash
+python steganography.py extract <image_path>
+```
+
+<image_path>: Path to the input image where the message will be extracted.
+
